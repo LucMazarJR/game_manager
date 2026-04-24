@@ -1,17 +1,25 @@
-# game_manager
+# Game Manager
 
-A new Flutter project.
+Um app simples feito em Flutter para gerenciar sua lista de jogos.
 
-## Getting Started
+## Intenção
 
-This project is a starting point for a Flutter application.
+A ideia desse projeto é aprender Flutter na prática, construindo algo útil para o dia a dia. Em vez de seguir tutoriais genéricos, a proposta é entender a estrutura de um projeto Flutter resolvendo um problema real: organizar sua coleção de jogos.
 
-A few resources to get you started if this is your first Flutter project:
+O foco está em explorar conceitos fundamentais como navegação entre telas, construção de interfaces e persistência de dados local com SQLite.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Adicionar jogos à lista
+- Visualizar todos os jogos cadastrados
+- Editar informações de um jogo
+- Remover jogos da lista
+
+## Tecnologias
+
+- [Flutter](https://flutter.dev/)
+- [SQLite](https://pub.dev/packages/sqflite) via `sqflite`
+
+## Status
+
+🚧 Em desenvolvimento
