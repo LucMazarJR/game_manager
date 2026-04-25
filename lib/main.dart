@@ -14,7 +14,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: HomePage(),
       theme: ThemeData(
-        textTheme: TextTheme(headlineMedium: TextStyle(color: Colors.red)),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Color(0xFF02569B),
+          surface: Color(0xFFF5F5F5),
+        ),
       ),
     );
   }
