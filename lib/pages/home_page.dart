@@ -52,7 +52,10 @@ class _HomePageState extends State<HomePage> {
                 color: themeColors.primary,
               ),
               child: Padding(
-                padding: EdgeInsetsGeometry.all(20),
+                padding: EdgeInsetsGeometry.symmetric(
+                  horizontal: 20,
+                  vertical: 30,
+                ),
                 child: SizedBox(
                   width: double.infinity,
                   child: Column(
@@ -84,7 +87,9 @@ class _HomePageState extends State<HomePage> {
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                border: BoxBorder.all(color: const Color.fromARGB(255, 200, 200, 200)),
+                border: BoxBorder.all(
+                  color: const Color.fromARGB(255, 200, 200, 200),
+                ),
               ),
               child: Padding(
                 padding: const EdgeInsets.all(20),
