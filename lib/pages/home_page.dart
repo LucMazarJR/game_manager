@@ -135,6 +135,64 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
+            SizedBox(height: 10),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  "Jogando no Momento:",
+                  style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+                ),
+                SizedBox(height: 3),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    border: BoxBorder.all(
+                      color: Colors.grey[300] ?? Colors.grey,
+                    ),
+                    color: Colors.grey[200],
+                    shape: BoxShape.rectangle,
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              color: Colors.grey[300] ?? Colors.grey,
+                            ),
+                          ),
+                          width: double.infinity,
+                          child: Column(
+                            children: [
+                              SizedBox(
+                                height: 150,
+                                width: double.infinity,
+                                child: Image(
+                                  image: AssetImage('images/darksouls.jpg'),
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        SizedBox(height: 2),
+                        Text(
+                          "DarkSouls",
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: Colors.grey[900],
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
